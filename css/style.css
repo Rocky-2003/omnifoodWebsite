@@ -1,0 +1,64 @@
+/* 
+!--- 01 TYPROGRAPHY SYSTEM
+
+*- FONT SIZE (PX)
+10/ 12/ 14/ 16/ 18/ 20/ 24/ 30/ 36/ 44/ 52/ 32/ 74/ 86/ 98
+
+*- FONT WEIGHT
+
+*- LINE HEIGHT
+Default 1
+
+
+!--- 02 COLORS
+
+*- Primary: #e67e22
+
+*- Tints: (BASICALLY DARKER VERSIONS)
+
+
+*- Shades: (BASICALLY LIGHTER VERSIONS)
+
+*- Accents:
+
+*- Grayes:
+#555
+
+!--- 05 SHADOWS
+
+!--- 06 BORDER RADIUS
+
+!--- 06 WHITE SPACE
+
+*- Spacing System (PX)
+2/ 4/ 8/ 12/ 16/ 24/ 32/ 48/ 64/ 80/ 96/ 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.hero {
+  margin: 0 auto;
+  max-width: 110rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
+}
