@@ -76,7 +76,7 @@ body {
 /*! ****************************** */
 /*! GENERAL COMPONENT */
 /*! ****************************** */
-strong {
+.strong {
   font-weight: 500;
 }
 
@@ -92,6 +92,9 @@ strong {
   column-gap: 6.4rem;
 }
 
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -202,7 +205,7 @@ strong {
   margin-right: 1.6rem !important;
 }
 
-.margin-right-md {
+.margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
 
