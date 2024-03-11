@@ -508,12 +508,27 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   /* temp*/
-  height: 50rem;
+  /* height: 50rem; */
   overflow: hidden;
 }
 
 .cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #2e1907;
 }
+
+.cta .heading-secondary {
+  font-size: 4rem;
+  color: #2e1907;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 4.2rem;
+}
+
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -524,4 +539,62 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  background-color: #fdf2e9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  border-radius: 9px;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  border: 0;
+}
+
+/* .cta-form input:focus {
+  outline: none;
+}
+.cta-form input::placeholder {
+  color: #aaa;
+} */
+
+.cta-form select:focus {
+  outline: none;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2ef;
+  align-self: end;
+  padding: 1.4rem;
+}
+
+.cta *:focus {
+  outline: none;
+
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 239, 0.5);
+}
+
+/*! ****************************** */
+/*! FOOTER   SECTION */
+/*! ***************************  */
+.footer {
+  padding: 9.6rem 0;
 }

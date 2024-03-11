@@ -32,6 +32,8 @@ Paragraph-default 1.6
 #eb984e
 ------ Shades: 
 #cf711f
+#45260a
+
 ----- Accents:
 
 ----- Grayes:
@@ -71,6 +73,12 @@ body {
   line-height: 1;
   font-weight: 400;
   /* color: #555; */
+}
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /*! ****************************** */
@@ -163,6 +171,7 @@ body {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -174,6 +183,11 @@ body {
   /* PUT TRANSITION OF ORIGINAL 'STATE' */
   /* transition: background-color 0.3s; */
   transition: all 0.3s;
+
+  /* neccessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
@@ -199,6 +213,18 @@ body {
   /* border: 3px solid #fff; */
   /* Trick to add border using box shadow and not geting scale up effect */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2ef;
+  align-self: end;
+  padding: 1.4rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .margin-right-sm {

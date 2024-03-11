@@ -79,7 +79,7 @@
             alt="Business Insider Logo"
           />
           <img
-            src="./img/logos/thenewyorktimes.png "
+            src="./img/logos/thenewyorktimes.png"
             alt="The New York Times Logo"
           />
           <img src="./img/logos/forbes.png" alt="Forbes Logo" />
@@ -511,7 +511,48 @@
       </section>
       <section class="section-cta">
         <div class="container cta">
-          <div class="cta-text-box">CTA</div>
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Get your first meal for free!</h2>
+            <p class="cta-text">
+              Healthy, tasty and hassle-free meals are waiting for you. Start
+              eating well today. You can cancel or pause anytime. And the first
+              meal is on us!
+            </p>
+            <form action="#" class="cta-form">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  placeholder="Rocky Mor"
+                  name="full-name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">E-mail</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="example@gmail.com"
+                  name="email"
+                  required
+                />
+              </div>
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" required>
+                  <option value="">Please select below:</option>
+                  <option value="youtube">Youtube Videos</option>
+                  <option value="friends">Friend and family</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ads</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="btn btn--form">Sign up now</button>
+            </form>
+          </div>
           <div
             class="cta-img-box"
             role="img"
@@ -520,5 +561,11 @@
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <dvi class="container grid grid--5-cols">
+        <div class="logo-col">LOGO</div>
+        <div class="address-col">ADDRESS</div>
+      </dvi>
+    </footer>
   </body>
 </html>
