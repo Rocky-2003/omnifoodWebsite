@@ -67,6 +67,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -74,6 +75,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 /**************************/
@@ -165,13 +167,11 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-
   /* Only necessary for .btn */
   border: none;
   cursor: pointer;
@@ -247,6 +247,7 @@ body {
 .list-item {
   font-size: 1.8rem;
   display: flex;
+  line-height: 1.2;
   align-items: center;
   gap: 1.6rem;
 }
