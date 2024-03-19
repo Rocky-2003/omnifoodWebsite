@@ -1,11 +1,11 @@
-"use strict";
+// "use strict";
 
-const btn = document.querySelector(".btn-mobile-nav");
-const menuBar = document.querySelector(".header");
+// const btn = document.querySelector(".btn-mobile-nav");
+// const menuBar = document.querySelector(".header");
 
-btn.addEventListener("click", (e) => {
-  // e.preventDefault();
-  console.log("Rocky Mor");
+// btn.addEventListener("click", (e) => {
+//   // e.preventDefault();
+//   console.log("Rocky Mor");
 
-  menuBar.classList.toggle("nav-open");
-});
+//   menuBar.classList.toggle("nav-open");
+// });
